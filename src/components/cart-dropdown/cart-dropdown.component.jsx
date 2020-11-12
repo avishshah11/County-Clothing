@@ -4,7 +4,7 @@ import CustomButton from '../custom-button/custom-button.component';
 
 import './cart-dropdown.styles.scss';
 
-const CardDropDown = () => (
+const CardDropdown = () => (
     <div className = 'cart-dropdown'>
         <div className = 'cart-items'/>
         <CustomButton>GO TO CHECKOUT</CustomButton>
@@ -12,4 +12,4 @@ const CardDropDown = () => (
 );
 
 
-export default CardDropDown;
+export default CardDropdown;
