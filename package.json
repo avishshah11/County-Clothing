@@ -1,6 +1,9 @@
 {
   "name": "county-clothing-server",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.19.0"
+  },
   "scripts": {
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
